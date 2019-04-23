@@ -26,16 +26,13 @@ function dec(n){
 console.log(dec);
 
 function makeInt(n){
-parseInt('0x2328', 10);
-return(n)
+return parseInt(n, 10);
 }
 console.log(makeInt)
 
 function preserveDecimal(n){
-  parseFloat('2.222')
-  return(n)
+ return parseFloat(n)
 }
-console.log(preserveDecimal)
 
 
 
